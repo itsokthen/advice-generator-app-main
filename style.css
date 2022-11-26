@@ -17,7 +17,7 @@ body {
 .advice-section {
   position: relative;
   background-color: hsl(217deg, 19%, 24%);
-  border-radius: 15px;
+  border-radius: 25px;
   min-height: 30%;
   width: 90%;
   display: flex;
@@ -41,8 +41,12 @@ body {
   margin-top: 30px;
 }
 
-.divider {
+picture {
   width: 86%;
+}
+
+.divider {
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 60px;
 }
@@ -52,8 +56,46 @@ body {
   position: absolute;
   cursor: pointer;
   background-color: hsl(150deg, 100%, 66%);
-  bottom: -35px;
+  bottom: -38px;
   min-height: 70px;
   width: 70px;
   border-radius: 50%;
+}
+
+.advice-button:hover {
+  box-shadow: 0 0 60px 0px hsl(150deg, 100%, 66%);
+}
+
+@media (min-width: 376px) {
+  .advice-section {
+    max-width: 800px;
+    margin-bottom: 100px;
+  }
+  .advice-title {
+    margin-top: 56px;
+    font-size: 1.1rem;
+    letter-spacing: 4px;
+  }
+  .advice-text {
+    width: 76%;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 38px;
+  }
+  picture {
+    width: 80%;
+  }
+  .divider {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+  .advice-button {
+    bottom: -48px;
+    min-height: 90px;
+    width: 90px;
+  }
+  img {
+    width: 40%;
+  }
 }/*# sourceMappingURL=style.css.map */
