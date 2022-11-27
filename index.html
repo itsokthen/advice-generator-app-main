@@ -27,8 +27,8 @@
   </head>
   <body>
     <section class="advice-section">
-      <h3 class="advice-title">ADVICE #117</h3>
-      <p class="advice-text">
+      <h3 class="advice-title" id="title"></h3>
+      <p class="advice-text" id="advice">
         "It is easy to sit up and take notice, what's difficult is getting up
         and taking action."
       </p>
@@ -44,9 +44,10 @@
         />
       </picture>
 
-      <button class="advice-button" type="submit">
+      <button class="advice-button" type="submit" onclick="fetchAdvice()">
         <img src="./images/icon-dice.svg" alt="button" />
       </button>
     </section>
+    <script src="./main.js"></script>
   </body>
 </html>
