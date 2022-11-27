@@ -24,12 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot 2022-11-26 at 23-44-32 Advice Generator App](https://user-images.githubusercontent.com/65359505/204121611-70714759-43e4-4f27-81d0-5ba8202e52ec.png)
+![12BtNXC](https://user-images.githubusercontent.com/65359505/204121613-d03fc4f5-54b2-4ab2-8369-dae8ff73d349.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: https://itsokthen.github.io/advice-generator-app-main/
 
 ## My process
 
