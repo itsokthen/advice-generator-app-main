@@ -4,8 +4,8 @@ const fetchAdvice = async () => {
   });
   const data = await results.json();
 
-  document.getElementById("title").innerHTML = `Advice #${data.slip.id};`;
-  document.getElementById("advice").innerHTML = ` "${data.slip.advice};"`;
+  document.getElementById("title").innerHTML = `Advice #${data.slip.id}`;
+  document.getElementById("advice").innerHTML = ` "${data.slip.advice}"`;
 };
 
 fetchAdvice();
